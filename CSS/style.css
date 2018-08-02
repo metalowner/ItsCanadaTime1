@@ -1,0 +1,90 @@
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+#header {
+	display: flex;
+}
+
+#headerH1 {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	font-size: 3em;
+	margin-right: 3em;
+}
+
+#logo {
+	max-width: 150px;
+	position: relative;
+	margin: 0px;
+}
+
+#pageContent {
+	display: flex;
+}
+
+#paragraphContainer {
+	width: 50%;
+}
+
+#paragraphHeader {
+	width: 70%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#paragraphAuthor {
+	width: 70%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#paragraphText {
+	width: 70%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Lato', sans-serif;
+	word-wrap:break-word;
+	position: relative;
+}
+
+#offerImage {
+	width: 50%;
+}
+
+#button {
+	width: 25%;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lato', sans-serif;
+	background-color: #fec129;
+	color: white;
+    padding: 0 .55555556em;
+    min-width: 13.77777778em;
+    font-size: 1.125em;
+    line-height: 2.38888889em;
+    height: 2.38888889em;
+    border-radius: 22px;
+    position: relative;
+}
+
+button:focus {outline:0;}
