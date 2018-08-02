@@ -1,0 +1,65 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+#header {
+	width: 100%;
+	text-align: center;
+}
+
+#image {
+	max-width: 300px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#paragraphHeader {
+	width: 70%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#paragraphAuthor {
+	width: 70%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#paragraphText {
+	width: 70%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Lato', sans-serif;
+	word-wrap:break-word;
+}
+
+#button {
+	width: 25%;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lato', sans-serif;
+	background-color: #fec129;
+	color: white;
+    padding: 0 .55555556em;
+    min-width: 13.77777778em;
+    font-size: 1.125em;
+    line-height: 2.38888889em;
+    height: 2.38888889em;
+    border-radius: 22px;
+}
+
+button:focus {outline:0;}
