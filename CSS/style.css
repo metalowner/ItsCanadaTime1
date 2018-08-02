@@ -1,4 +1,7 @@
+html,
 body {
+	margin: 0px;
+	padding: 0px;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -11,15 +14,29 @@ pre {
 }
 
 #header {
-	width: 100%;
-	text-align: center;
+	display: flex;
 }
 
-#image {
-	max-width: 300px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+#headerH1 {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	font-size: 3em;
+	margin-right: 3em;
+}
+
+#logo {
+	max-width: 150px;
+	position: relative;
+	margin: 0px;
+}
+
+#pageContent {
+	display: flex;
+}
+
+#paragraphContainer {
+	width: 50%;
 }
 
 #paragraphHeader {
@@ -27,6 +44,7 @@ pre {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	position: relative;
 }
 
 #paragraphAuthor {
@@ -34,6 +52,7 @@ pre {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	position: relative;
 }
 
 #paragraphText {
@@ -43,6 +62,11 @@ pre {
 	margin-left: auto;
 	font-family: 'Lato', sans-serif;
 	word-wrap:break-word;
+	position: relative;
+}
+
+#offerImage {
+	width: 50%;
 }
 
 #button {
@@ -60,6 +84,7 @@ pre {
     line-height: 2.38888889em;
     height: 2.38888889em;
     border-radius: 22px;
+    position: relative;
 }
 
 button:focus {outline:0;}
