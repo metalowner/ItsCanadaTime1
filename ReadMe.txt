@@ -49,3 +49,6 @@ And change the SEO of your landing page to what you think best describes it.
  		 <meta name="keywords" content="itscanadatime,landing page,guide,html">
 
 Thats it, your awesome responsive landing page is ready!
+
+The next step is uploading your landing page to the web and making it public!
+Here is the best hosting service around (For now): https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html
